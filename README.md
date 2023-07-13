@@ -1,8 +1,8 @@
-# Sponsorname - Mitigation Review details
-- Total Prize Pool: XXX XXX 
+# Angle Protocol - Mitigation Review details
+- Total Prize Pool: $14,000 USDC 
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
 - Submit findings [using the C4 form](https://code4rena.com/contests/YYYY-MM-sponsorName-mitigation-review/submit)
-- Starts TBD XXX XXX XX 20:00 UTC (ex. `Starts March 22, 2023 20:00 UTC`)
+- Starts July 17, 2023 20:00 UTC 
 - Ends TBD XXX XXX XX 20:00 UTC (ex. `Ends March 30, 2023 20:00 UTC`)
 
 ## Important note 
@@ -13,7 +13,16 @@ Each warden must submit a mitigation review for *every High and Medium finding* 
 
 Mitigations of all High and Medium issues will be considered in-scope and listed here.
 
-- [H-01: Title](link to Github issue)
+- [H-01: Possible reentrancy during redemption/swap](https://github.com/code-423n4/2023-06-angle-findings/issues/24)
+- [H-02: The first disputer might lose funds although his dispute is valid.](https://github.com/code-423n4/2023-06-angle-findings/issues/23)
+- [H-03: Poor detection of disputed trees allows claiming tokens from a disputed tre](https://github.com/code-423n4/2023-06-angle-findings/issues/10)
+- [M-01: LibHelpers.piecewiseLinear will revert when the value is less than the first element of the array](https://github.com/code-423n4/2023-06-angle-findings/issues/40)
+- [M-02: Unsafe cast in getCollateralRatio()](https://github.com/code-423n4/2023-06-angle-findings/issues/31)
+- [M-03: Read-only reentrancy is possible](https://github.com/code-423n4/2023-06-angle-findings/issues/30)
+- [M-04: estimatedAPR() might return the wrong APR.](https://github.com/code-423n4/2023-06-angle-findings/issues/28)
+- [M-05: uint128 changeAmount might overflow](https://github.com/code-423n4/2023-06-angle-findings/issues/16)
+- [M-06: Interest is not accrued before parameters are updated in SavingsVest](https://github.com/code-423n4/2023-06-angle-findings/issues/13)
+- [M-07: User may get less tokens than expected when collateral list order changes](https://github.com/code-423n4/2023-06-angle-findings/issues/8)
 
 [ ⭐️ SPONSORS ADD INFO HERE ]
 
