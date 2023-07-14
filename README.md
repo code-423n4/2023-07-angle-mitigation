@@ -30,10 +30,10 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 ## Overview of changes
 
 Changes related to High and Medium issues on Merkl can be found [here](https://github.com/AngleProtocol/merkl-contracts/compare/code-423n4-2023-06-angle...code-423n4-2023-06-angle-mitigation).
-Changes that we intend to make on Merkl prior to final deployment can be found [here](https://github.com/AngleProtocol/merkl-contracts/compare/code-423n4-2023-06-angle...main).
+Changes that we intend to make on Merkl prior to final deployment, so including QA and GAS can be found [here](https://github.com/AngleProtocol/merkl-contracts/compare/code-423n4-2023-06-angle...code-423n4-2023-06-angle-full-mitigation). Updated tests and scripts are on the `main` branch.
 
 Changes related to High and Medium issues on Transmuter can be found [here](https://github.com/AngleProtocol/angle-transmuter/compare/code-423n4-2023-06-angle...code-423n4-2023-06-angle-mitigation).
-Changes that we intend to make on Transmuter prior to final deployment can be found [here](https://github.com/AngleProtocol/angle-transmuter/compare/code-423n4-2023-06-angle...main).
+Changes that we intend to make on Transmuter prior to final deployment, so including QA and GAS can be found can be found [here](https://github.com/AngleProtocol/angle-transmuter/compare/code-423n4-2023-06-angle...code-423n4-2023-06-angle-full-mitigation). Updated tests and scripts are on the `main` branch.
 
 ## Mitigations to be reviewed
 
@@ -50,6 +50,8 @@ Changes that we intend to make on Transmuter prior to final deployment can be fo
 | https://github.com/AngleProtocol/angle-transmuter/commit/337c65d005bbd8ed6dfa76929d2cae475066756a | M-04          | Applies the suggested fix                           |
 | https://github.com/AngleProtocol/angle-transmuter/commit/94c4e51ae3400a63532e85f04f4081152adc97db | M-06          | Calls `accrues` before updating sensible parameters |
 | https://github.com/AngleProtocol/angle-transmuter/commit/f8d0bf7c4009586f7022d5929359041db3990175 | M-07          | Applies the suggested fix                           |
+| https://github.com/AngleProtocol/merkl-contracts/commit/3c2fe3a956cdd29b632e8d7a20e1fc2ce5e8ac37  | QA & GAS      |                                                     |
+| https://github.com/AngleProtocol/angle-transmuter/commit/66bba3f5dba4ab6307c997e350dfadb13d2a2119 | QA & GAS      |                                                     |
 
 ## Out of Scope
 
